@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory300040-5-92-23JAN25"
+		},
+		"data_2_20_11jan25_accountKey": {
+			"value": ""
+		},
+		"datalakedp20321911jan25_connectionString": {
+			"value": ""
+		},
+		"data_2_20_11jan25_properties_typeProperties_url": {
+			"value": "https://datalakedp20321911jan25.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
