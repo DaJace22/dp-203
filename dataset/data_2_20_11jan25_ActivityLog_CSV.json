@@ -1,0 +1,67 @@
+{
+	"name": "data_2_20_11jan25_ActivityLog_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "data_2_20_11jan25",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "data-2-20-11jan25"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Correlationid",
+				"type": "String"
+			},
+			{
+				"name": "Operationname",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Eventcategory",
+				"type": "String"
+			},
+			{
+				"name": "Level",
+				"type": "String"
+			},
+			{
+				"name": "Time",
+				"type": "String"
+			},
+			{
+				"name": "Subscription",
+				"type": "String"
+			},
+			{
+				"name": "Eventinitiatedby",
+				"type": "String"
+			},
+			{
+				"name": "Resourcetype",
+				"type": "String"
+			},
+			{
+				"name": "Resourcegroup",
+				"type": "String"
+			},
+			{
+				"name": "Resource",
+				"type": "String"
+			}
+		]
+	}
+}
